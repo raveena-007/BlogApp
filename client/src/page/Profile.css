@@ -1,0 +1,49 @@
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+}
+
+.user-posts {
+  margin-top: 20px;
+}
+
+.post-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h4 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+}
+
+.view-post {
+  color: #100649;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.view-post:hover {
+  text-decoration: underline;
+}
